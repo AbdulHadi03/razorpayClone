@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.coreFeaturesBg {
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.companies{
+    animation: 10s infinite linear imageAnimation;
+}
+@keyframes imageAnimation {
+    0%{
+        top:0;
+    }
+    100%{
+        top: -50%;
+    }
+}
+.section7{
+    background-size: 100% 100%;
+    padding-top: 9rem;
+    padding-bottom: 1rem;
+}
